@@ -1,0 +1,114 @@
+body, h1, h2, p, label, input, button {
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(https://images.unsplash.com/photo-1604780032295-9f8186eede96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    
+   }
+.welcome-box{
+    background-color: black;
+    color:black;
+    font-size:3rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+@font-face {
+    font-family: bebasnue;
+    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
+         url('bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.welcome-box h1{
+    background: linear-gradient(120deg, #00568f, #9c9c9c);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: bebasnue;
+}
+    
+    main {
+    padding: 2rem;
+    text-align: center;
+    }
+    footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    }
+    /* Previous CSS styles */
+
+.products {
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.product {
+    
+    box-shadow: 3px 5px 9px 3px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+    width: 350px;
+    height:460px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-image{
+    height:65%;
+    width:100%;
+}
+#img{
+    max-width: 100%;
+    height: auto;
+}
+.product-description{
+    height:30%;
+    width:100%;
+}
+
+.button{
+    display: flex;
+    justify-content: space-evenly;
+}
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+ button:hover {
+    background-color: #2980b9;
+}
+.top-container a{
+    text-decoration: none;
+    margin:10px;
+    background-color: white;
+    padding: 20px;
+    color:black;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+

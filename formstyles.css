@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://i.shgcdn.com/a12ea2e2-ab28-4de2-a14d-fb26a6e4a76a/-/format/auto/-/preview/3000x3000/-/quality/lighter/);
+    background-size: cover;
+}
+.box{
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px 2px rgba(0, 0, 0, 0.3);
+    width: 370px;
+    height: 350px;
+    background-color: #ffffff;
+    padding: 10px 30px; 
+}
+.signinform input{
+    margin: 10px 0;
+    width: 90%;
+    background-color: #e2e2e2;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+.signinform button{
+    background-color: #4796ff;
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 20px;
+    width: 100%;
+}
+button:hover{
+    cursor:pointer;
+    opacity:0.5;
+}
